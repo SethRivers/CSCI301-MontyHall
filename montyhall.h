@@ -19,11 +19,12 @@ class MontyHall{
   int victories_stay;
   int failures_stay; 
   int total_runs;
+  int num_iterations;
   float percental; 
 
  public:
   void monty_hall();
-  void simulate(num_iterations); 
+  void simulate(int num_iterations); 
   void door_selection();
   void door_settup();
   void victory_calculator();
