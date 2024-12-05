@@ -31,7 +31,7 @@ main.o: 	main.cpp montyhall.h
 		$(CC) $(CFLAGS) main.cpp
 
 #Compiles the Steganography.cpp/.h files
-montyhall.o: 	phonebook.h montyhall.cpp
+montyhall.o: 	montyhall.h montyhall.cpp
 		$(CC) $(CFLAGS) montyhall.cpp
 
 #Cleans out any unnecaary items post compiling.

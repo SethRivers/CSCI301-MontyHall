@@ -17,14 +17,16 @@ int main() {
   
   cout << "The Monty Hall Simulator" << endl;
   cout << "==============================" << endl; 
-  cout << "<Please select the simulation option: >" << endl;
-       << "1. One Trial\n"
-       << "2. 10 Trials\n"
-       << "3. 100 Trials\n"
-       << "4. 1,000 Trials\n"
-       << "5. 10,000 Trials\n"
-       << "6. 100,000 Trials\n"
-       << "7. Custom Trial\n" << endl;
+  cout << "<Please select the simulation option: >\n"
+       << "1. Play The Monty Hall Problem\n"
+       << "2. 1 Auto-Trial\n"
+       << "3. 10 Auto-Trials\n"
+       << "4. 100 Auto-Trials\n"
+       << "5. 1,000 Auto-Trials\n"
+       << "6. 10,000 Auto-Trials\n"
+       << "7. 100,000 Auto-Trials\n"
+       << "8. Custom Auto-Trial\n" 
+       << endl;
   cin >> option;
 
   if (option == '1'){
@@ -46,6 +48,9 @@ int main() {
 
   }
   else if (option == '7'){
+
+  }
+  else if (option == '8'){
 
   }
   else{
