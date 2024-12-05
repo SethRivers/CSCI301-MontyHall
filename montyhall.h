@@ -10,16 +10,24 @@
 #ifndef MONTYHALL_H
 #define MONTYHALL_H
 
+using namespace std; 
+
 class MontyHall{
  private:
+  int victories_switch;
+  int failures_switch;
+  int victories_stay;
+  int failures_stay; 
+  int total_runs;
+  float percental; 
 
  public:
-  monty_hall();
-  simulate(num_iterations); 
-  door_selection();
-  door_settup();
-  victory_calculator();
-  print_results();
-
+  void monty_hall();
+  void simulate(num_iterations); 
+  void door_selection();
+  void door_settup();
+  void victory_calculator();
+  void results(); 
+  void print_results();
   
 }
